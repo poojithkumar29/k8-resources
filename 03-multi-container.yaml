@@ -3,11 +3,12 @@ kind: Pod
 metadata:
   name: multi-container
   labels:
-    purpose: multi-container
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
-    - name: almalinux
-      image: almalinux:9
-      command: ["sleep","1000"]
+    purpose: multi-containe 
+    
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9
+    command: ["sleep","1000"]
